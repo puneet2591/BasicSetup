@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BasicSetup_Tests' do
+  pod 'BasicSetup', :path => '../'
+  
+  
+end
