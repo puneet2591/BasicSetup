@@ -13,12 +13,12 @@
 
 /* Begin PBXFileReference section */
 		1BA7B78ED5AE1A2FD77D1CE5 /* Pods-BasicSetup_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicSetup_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BasicSetup_Tests/Pods-BasicSetup_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1C8F22750DF94AB8B8D181C4 /* BasicSetup.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BasicSetup.podspec; path = ../BasicSetup.podspec; sourceTree = "<group>"; };
-		59E53803D4EF659E93EC1034 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1C8F22750DF94AB8B8D181C4 /* BasicSetup.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BasicSetup.podspec; path = ../BasicSetup.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		59E53803D4EF659E93EC1034 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* BasicSetup_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicSetup_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7F49DC4F9EB0BA18A37F5E18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7F49DC4F9EB0BA18A37F5E18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BFD13D3A60705D3F998B8DE4 /* Pods-BasicSetup_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicSetup_Tests.release.xcconfig"; path = "Target Support Files/Pods-BasicSetup_Tests/Pods-BasicSetup_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E4A8D798FB713D7FC6AA2B41 /* Pods_BasicSetup_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicSetup_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,7 +87,6 @@
 				1BA7B78ED5AE1A2FD77D1CE5 /* Pods-BasicSetup_Tests.debug.xcconfig */,
 				BFD13D3A60705D3F998B8DE4 /* Pods-BasicSetup_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

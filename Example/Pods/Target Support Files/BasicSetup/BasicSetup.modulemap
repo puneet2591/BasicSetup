@@ -1,0 +1,6 @@
+framework module BasicSetup {
+  umbrella header "BasicSetup-umbrella.h"
+
+  export *
+  module * { export * }
+}

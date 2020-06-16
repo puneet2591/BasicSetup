@@ -1,0 +1,16 @@
+PODS:
+  - BasicSetup (0.1.0)
+
+DEPENDENCIES:
+  - BasicSetup (from `../`)
+
+EXTERNAL SOURCES:
+  BasicSetup:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BasicSetup: 4c1b97382d6a1fa9c9dec0dc3e0e01fb8f17802c
+
+PODFILE CHECKSUM: d962f5fbf797845fec09b92233c66b33a0dee58e
+
+COCOAPODS: 1.9.1
