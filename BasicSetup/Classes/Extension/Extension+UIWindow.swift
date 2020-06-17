@@ -1,16 +1,10 @@
 //
 //  Extension+UIWindow.swift
-//  Demo
+//  BasicSetup
 //
-//  Created by apple on 19/03/20.
-//  Copyright © 2020 Altimetrik. All rights reserved.
+//  Created by Puneet Mahajan on 19/03/20.
+//  Copyright © 2020 Puneet Mahajan. All rights reserved.
 //
-//
-//  UIWindowTransitions.swift
-//  Daniele Margutti
-//
-//  Created by Daniele Margutti.
-//  Copyright © 2017 Daniele Margutti. All rights reserved.
 //
 
 import UIKit
