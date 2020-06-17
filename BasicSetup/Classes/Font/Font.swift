@@ -40,7 +40,7 @@ public enum Font {
 //        case Medium
 //    }
     
-    func getFontOf(size: CGFloat) -> UIFont {
+    public func getFontOf(size: CGFloat) -> UIFont {
         
         switch self {
         case .Light:
@@ -120,7 +120,7 @@ public enum Font {
         
     }
     
-    func getCustomFont(name: String, ofSize: CGFloat) -> UIFont {
+    public func getCustomFont(name: String, ofSize: CGFloat) -> UIFont {
         
         switch UIDevice.current.modelName {
         case .iPhone8, .iPhone8Plus, .iPhone7, .iPhone7Plus, .iPhone6, .iPhone6Plus, .iPhone6s, .iPhone6sPlus:
