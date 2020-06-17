@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A small framework used to basic setup for your project.
+A small framework used to basic setup for your project. Install it in your project and use it.
                        DESC
 
   s.homepage         = 'https://github.com/puneet2591/BasicSetup'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'puneetonly12@gmail.com' => 'puneetonly12@gmail.com' }
+  s.author           = { 'puneetonly12@gmail.com' => 'Puneet Mahajan' }
   s.source           = { :git => 'https://github.com/puneet2591/BasicSetup.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -38,5 +38,6 @@ A small framework used to basic setup for your project.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
+  s.swift_versions = '5.0'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

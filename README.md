@@ -22,7 +22,7 @@ pod 'BasicSetup'
 
 ## Author
 
-puneetonly12@gmail.com, puneetonly12@gmail.com
+Puneet Mahajan, puneetonly12@gmail.com
 
 ## License
 
