@@ -211,7 +211,9 @@ public extension UIView {
         
         //layer.shadowPath = UIBezierPath(rect: self.bounds).cgPath
         //layer.shouldRasterize = true
-        //layer.rasterizationScale = scale ? UIScreen.main.scale : 1
+        if scale {
+            layer.rasterizationScale = scale ? UIScreen.main.scale : 1
+        }
     }
     
     func roundCornersWith(_ corners: CACornerMask, radius: CGFloat, borderColor: UIColor, borderWidth: CGFloat) {
