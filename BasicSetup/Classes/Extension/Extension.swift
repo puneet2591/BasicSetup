@@ -568,7 +568,7 @@ public extension UITextField {
 
 public extension UIViewController {
     
-    func showToast(message: String) {
+    func showToast(message: String, applySystemTheme: Bool = true) {
         
         DispatchQueue.main.async {
             guard let window = UIApplication.shared.keyWindow else {return}
@@ -577,11 +577,18 @@ public extension UIViewController {
             messageLbl.numberOfLines = 0
             messageLbl.textAlignment = .center
             messageLbl.font = Font.Medium.getFontOf(size: 15)
-            if #available(iOS 13.0, *) {
-                messageLbl.textColor = .systemBackground
-                messageLbl.backgroundColor = UIColor.label
+            
+            if applySystemTheme {
+
+                if #available(iOS 13.0, *) {
+                    messageLbl.textColor = .systemBackground
+                    messageLbl.backgroundColor = UIColor.label
+                } else {
+                    // Fallback on earlier versions
+                    messageLbl.textColor = .white
+                    messageLbl.backgroundColor = UIColor(white: 0, alpha: 0.5)
+                }
             } else {
-                // Fallback on earlier versions
                 messageLbl.textColor = .white
                 messageLbl.backgroundColor = UIColor(white: 0, alpha: 0.5)
             }
