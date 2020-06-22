@@ -589,8 +589,8 @@ public extension UIViewController {
                     messageLbl.backgroundColor = UIColor(white: 0, alpha: 0.5)
                 }
             } else {
-                messageLbl.textColor = .white
-                messageLbl.backgroundColor = UIColor(white: 0, alpha: 0.5)
+                messageLbl.textColor = .black
+                messageLbl.backgroundColor = .white
             }
             
             let textSize:CGSize = messageLbl.intrinsicContentSize
