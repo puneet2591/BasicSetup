@@ -46,7 +46,7 @@ public enum Font {
         case .Light:
             
             switch UIDevice.current.modelName {
-            case .iPhone8, .iPhone8Plus, .iPhone7, .iPhone7Plus, .iPhone6, .iPhone6Plus, .iPhone6s, .iPhone6sPlus:
+            case .iPhone8, .iPhone8Plus, .iPhone7, .iPhone7Plus, .iPhone6, .iPhone6Plus, .iPhone6s, .iPhone6sPlus, .iPhone11Pro:
                 
                 return UIFont.systemFont(ofSize: size - 2, weight: .light)
             default:
@@ -60,7 +60,7 @@ public enum Font {
         case .Bold:
             
             switch UIDevice.current.modelName {
-            case .iPhone8, .iPhone8Plus, .iPhone7, .iPhone7Plus, .iPhone6, .iPhone6Plus, .iPhone6s, .iPhone6sPlus:
+            case .iPhone8, .iPhone8Plus, .iPhone7, .iPhone7Plus, .iPhone6, .iPhone6Plus, .iPhone6s, .iPhone6sPlus, .iPhone11Pro:
                 
                 return UIFont.systemFont(ofSize: size - 2, weight: .bold)
             default:
@@ -75,7 +75,7 @@ public enum Font {
         case .Semibold:
             
             switch UIDevice.current.modelName {
-            case .iPhone8, .iPhone8Plus, .iPhone7, .iPhone7Plus, .iPhone6, .iPhone6Plus, .iPhone6s, .iPhone6sPlus:
+            case .iPhone8, .iPhone8Plus, .iPhone7, .iPhone7Plus, .iPhone6, .iPhone6Plus, .iPhone6s, .iPhone6sPlus, .iPhone11Pro:
                 
                 return UIFont.systemFont(ofSize: size - 2, weight: .semibold)
             default:
@@ -90,7 +90,7 @@ public enum Font {
         case .Regular:
             
             switch UIDevice.current.modelName {
-            case .iPhone8, .iPhone8Plus, .iPhone7, .iPhone7Plus, .iPhone6, .iPhone6Plus, .iPhone6s, .iPhone6sPlus:
+            case .iPhone8, .iPhone8Plus, .iPhone7, .iPhone7Plus, .iPhone6, .iPhone6Plus, .iPhone6s, .iPhone6sPlus, .iPhone11Pro:
                 
                 return UIFont.systemFont(ofSize: size - 2, weight: .regular)
             default:
@@ -105,7 +105,7 @@ public enum Font {
         case .Medium:
             
             switch UIDevice.current.modelName {
-            case .iPhone8, .iPhone8Plus, .iPhone7, .iPhone7Plus, .iPhone6, .iPhone6Plus, .iPhone6s, .iPhone6sPlus:
+            case .iPhone8, .iPhone8Plus, .iPhone7, .iPhone7Plus, .iPhone6, .iPhone6Plus, .iPhone6s, .iPhone6sPlus, .iPhone11Pro:
                 
                 return UIFont.systemFont(ofSize: size - 2, weight: .medium)
             default:

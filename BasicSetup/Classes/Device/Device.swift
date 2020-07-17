@@ -38,11 +38,18 @@ public extension UIDevice {
         case iPhoneXS
         case iPhoneXSMax
         case iPhoneXR
+        
+        case iPhone11
+        case iPhone11Pro
+        case iPhone11ProMax
+        
         case iPad2
         case iPad3
         case iPad4
         case iPadAir
         case iPadAir2
+        case iPadAir3Gen
+        case iPad7Gen
         case iPad5
         case iPad6
         case iPadMini
@@ -96,11 +103,16 @@ public extension UIDevice {
         case "iPhone11,2":                              return .iPhoneXS
         case "iPhone11,4", "iPhone11,6":                return .iPhoneXSMax
         case "iPhone11,8":                              return .iPhoneXR
+        case "iPhone12,1":                              return .iPhone11
+        case "iPhone12,3":                              return .iPhone11Pro
+        case "iPhone12,5":                              return .iPhone11ProMax
         case "iPad2,1", "iPad2,2", "iPad2,3", "iPad2,4":return .iPad2
         case "iPad3,1", "iPad3,2", "iPad3,3":           return .iPad3
         case "iPad3,4", "iPad3,5", "iPad3,6":           return .iPad4
         case "iPad4,1", "iPad4,2", "iPad4,3":           return .iPadAir
         case "iPad5,3", "iPad5,4":                      return .iPadAir2
+        case "iPad11,3":                                return .iPadAir3Gen
+        case "iPad7,12":                                return .iPad7Gen
         case "iPad6,11", "iPad6,12":                    return .iPad5
         case "iPad7,5", "iPad7,6":                      return .iPad6
         case "iPad2,5", "iPad2,6", "iPad2,7":           return .iPadMini
