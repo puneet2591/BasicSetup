@@ -90,7 +90,7 @@ public enum Font {
         case .Regular:
             
             switch UIDevice.current.modelName {
-            case .iPhone8, .iPhone8Plus, .iPhone7, .iPhone7Plus, .iPhone6, .iPhone6Plus, .iPhone6s, .iPhone6sPlus, .iPhone11Prom, .iPhoneX:
+            case .iPhone8, .iPhone8Plus, .iPhone7, .iPhone7Plus, .iPhone6, .iPhone6Plus, .iPhone6s, .iPhone6sPlus, .iPhone11Pro, .iPhoneX:
                 
                 return UIFont.systemFont(ofSize: size - 2, weight: .regular)
             default:
